@@ -1,0 +1,39 @@
+/* src/styles/ProfilePageStyles.css */
+.container {
+  padding: 10px;
+}
+.topSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profilePic {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  background-image: url("/images/profile.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.info {
+  flex: 1;
+}
+.secondSection {
+  margin-bottom: 20px;
+}
+.postsSection {
+  display: flex;
+}
+.post {
+  width: 150px;
+  height: 200px;
+  background-image: url("/images/picture1.jpg");
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+button {
+  padding: 10px 20px;
+}

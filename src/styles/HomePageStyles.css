@@ -1,0 +1,50 @@
+/* src/styles/HomePageStyles.css */
+.container {
+  padding: 10px;
+}
+.sectionTitle {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.storiesSection {
+  display: flex;
+  margin-bottom: 20px;
+}
+.story {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-top: 20px;
+  background-image: url("/images/istockphoto.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.postsSection {
+  margin-bottom: 20px;
+}
+.post {
+  height: 200px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  background-image: url("/images/picture1.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.suggestionsSection {
+  display: flex;
+  margin-bottom: 20px;
+  margin: 2rem;
+}
+.suggestion {
+  height: 60px;
+  width: 50px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  background-image: url("/images/profile.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+button {
+  padding: 10px 20px;
+}
